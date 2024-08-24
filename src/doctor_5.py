@@ -50,9 +50,8 @@ class Doctor:
         recipe += self.name
         recipe += f"\nВрач-{self.speciality}"
 
-        print(recipe)  # не понятно, надо ли выводить на экран результат
+#         print(recipe)  # не понятно, надо ли выводить на экран результат
 
-        if filename != None:
+        if filename is not None:
             self.__write_receipt_to_file(recipe, filename)
-
         return recipe
