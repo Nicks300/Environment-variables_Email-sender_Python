@@ -23,3 +23,17 @@ def calculate_area(name: str, l: Union[Tuple[float, ...], float]) -> Optional[fl
         return round(3.14159 * l * l, 2)
     else:
         return None
+
+
+# def main():
+#     name = "rectangle"
+#     l = (3.0, 4.0)
+#     print(calculate_area(name, l))
+#     name = "circle"
+#     l = 1.0
+#     print(calculate_area(name, l))
+#     print(number_of_differences([1, 2, 3], [1, 2, 4]))
+#
+#
+# if __name__ == '__main__':
+#     main()
