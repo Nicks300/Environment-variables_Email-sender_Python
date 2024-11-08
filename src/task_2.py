@@ -19,7 +19,7 @@ def calculate_area(name: str, l: Union[Tuple[float, ...], float]) -> Optional[fl
             return round(l[0] * l[1], 2)
         else:
             return None
-    elif name == 'circle' and isinstance(name, str) and isinstance(l, float) and isinstance(l, float):
+    elif name == 'circle' and isinstance(name, str) and isinstance(l, float):
         return round(3.14159 * l * l, 2)
     else:
         return None
